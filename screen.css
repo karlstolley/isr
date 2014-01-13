@@ -58,7 +58,7 @@ legend {
 /* Base */
 html {
   font-size: 100%;
-  background: #180d48;
+  background: #1f5b00;
   color: #fff6ed; }
 
 body {
@@ -120,13 +120,18 @@ ul > li {
 .button {
   clear: both;
   display: block;
-  color: #180d48;
-  background: #a5a5a5;
+  color: #ebcb92;
+  background: inherit;
   padding: 0.44433em 0.683em;
   margin-bottom: 1.333em;
   margin-left: 66%;
   text-align: center;
+  border: 1px solid #ebcb92;
   border-radius: 0.33325em; }
+
+.button:hover, .button:active, .button:focus {
+  background: #ebcb92;
+  color: #1f5b00; }
 
 /* Module: Content Areas */
 .content {

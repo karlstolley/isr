@@ -14,7 +14,7 @@ $fontsize: 1.125em; /* 18px */
 
 /* Color Inspiration from http://www.colourlovers.com/palette/2991458/Bedroom */
 $forecolor: #FFF6ED;
-$backcolor: #180D48;
+$backcolor: #1f5b00;
 $neutcolor: #EBCB92;
 $acctcolor: #FC4D60;
 
@@ -99,15 +99,19 @@ ul > li {
 .button {
   clear: both;
   display: block;
-  color: $backcolor;
-  background: $acctgray;
+  color: $neutcolor;
+  background: inherit;
   padding: $lineheight/3 0.683em;
   margin-bottom: $lineheight;
   margin-left: 66%;
   text-align: center;
+  border: 1px solid $neutcolor;
   border-radius: $lineheight/4;
 }
-
+.button:hover,.button:active,.button:focus {
+  background: $neutcolor;
+  color: $backcolor;
+}
 /* Module: Content Areas */
 .content { padding: 0 0.683em 0 0.683em; }
 .content.is-visible {
