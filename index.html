@@ -396,255 +396,103 @@
   <div id="projects">
     <h2 class="label">Projects</h2>
     <div class="content">
-    <div class="extended">
-      <h3>Project 1: JavaScript Program <small>Due September 18</small></h3>
+    <div class="preview">
+      <h3>Project 1: Visual Design of Information <small>Due February 17</small></h3>
       <p>
-        This project asks you to build a small program in JavaScript that runs in the browser. It
-        will operate on a small piece of JSON data that you will provide. The program should
-        manipulate that data in some way, and present it in the browser.
+        Project 1 asks you to take some set of data and build from it a static information display
+        that both aids in your audience’s understanding of the information and makes a particular
+        visual argument for how the audience should act based on their understanding. You will
+        submit two versions of your final design, both as PNG images: one for large-screen display
+        (e.g., flat-screen televisions) and one for smaller, tablet-sized screen display.
+      </p>
+      <p>
+        Your designs should not be some lame, boring Excel-produced pie charts. They should tell a
+        story and make an argument, and be compelling enough that someone might want a poster of the
+        design to hang on the wall.
       </p>
       <h4>Project Goals</h4>
       <ul class="goals">
-        <li>Understand the basics of JavaScript values, variables, functions, and objects</li>
-        <li>Understand the basics of writing, accessing, and manipulating data in JSON</li>
-        <li>Learn to use a version control system (Git and GitHub)</li>
+
       </ul>
       <h4>Deliverables &amp; Milestones</h4>
       <ol class="deliverables">
         <li>
-          A single HTML page that either loads your program as a separate <code>.js</code> file or
-          includes your JavaScript on the page, inside of &lt;script&gt; tags
+          A shared Dropbox link to all deliverables
+        </li>
+        <li>
+          An HTML or PDF document that shows your in-progress work and briefly discusses your design
+          process and thinking over the course of the project
+        </li>
+        <li>
+          Two standalone PNG image files: one of your design for a large-screen viewed at a distance
+          (think: television set) and one of your design for a small-screen viewed at arm’s length
         </li>
         <li>
           A self-critique memo that evaluates your project and your progress in the class to this
-          point (2-3 paragraphs; submit via email or as a <code>README.md</code> in your GitHub
-          repository for the project)
+          point (2-3 paragraphs; submit via email with Dropbox share link)
         </li>
         <li>
-          A GitHub repository of your project
+          A brief (5-8 minutes) presentation of your work on February 17
         </li>
       </ol>
       <h4>Requirements</h4>
       <dl class="requirements">
-        <dt>Your JSON data must:</dt>
+        <dt>Your dataset must:</dt>
         <dd>
           <ul>
-            <li>Use obvious/understandable basedfield names written in camelCase</li>
-            <li>Include some piece of date/time information, in a standard format</li>
-            <li>Include a number, a string, and a boolean</li>
-            <li>Include an array (which could itself contain numbers, strings, and/or booleans</li>
+            <li>
+              Be openly/freely available from some governmental, educational, or private source
+            </li>
+            <li>
+              Include either a spatial or temporal dimension
+            </li>
           </ul>
         </dd>
-        <dt>Your JavaScript program must:</dt>
+        <dt>Your visual designs must:</dt>
         <dd>
           <ul>
-            <li>Run error-free in the browser, but also provide some form of error handling</li>
-            <li>Operate on a standards-compliant DOM</li>
-            <li>Be attached to an HTML/CSS design that has the foundations of responsive design</li>
-            <li>Be written in native JavaScript (no CoffeeScript or other pre-processors...yet)</li>
+            <li>
+              Be versioned across the life of your project to showcase the progress of your thinking
+              and design work (HTML or PDF deliverable)
+            </li>
+            <li>
+              Be prepared specifically for both a large- and small-screen display (one image for
+              each; PNG deliverables); DO NOT just resize your image
+            </li>
+            <li>
+              Be saved as a PNG or other web-friendly, mildly compressed format; bonus points for
+              tackling your design as SVG
+            </li>
           </ul>
         </dd>
       </dl>
     </div>
-    <div class="preview">
-      <h3>Project 2: API Data on the Server <small>Due November 13</small></h3>
+    <div class="extended">
+      <h3>Project 2: Structural Design of Information <small>Due March 24</small></h3>
       <p>
-        The major project of the course. You will develop an application in Node.js that pulls in
-        external data from a third-party API. There is an option as to what kind of
-        application you will build: either a command-line application (e.g., for storing API data
-        for further analysis in another piece of software) or a Web application (e.g., for creating
-        an interface that displays a mashup of data coming from different APIs).
+        In stark contrast to the first project, which emphasizes visual display of information,
+        Project 2 looks at the structural/semantic design of information that can be easily
+        retrieved and shared across different devices and platforms. Working from a data set similar
+        to that of your first project, you will create a structural information design either as a
+        series of XML or JSON files, or as a relational database (e.g., MySQL). Due March 21. Full
+        description to be posted by February 10.
       </p>
-      <h4>Project Goals</h4>
-      <ul class="goals">
-        <li>
-          Learn to authenticate to and access third-party APIs in accordance with their host’s terms
-          of service
-        </li>
-        <li>
-          Learn to build an application in Node.js and draw on the community-developed modules
-          available through the Node Package Manager (NPM)
-        </li>
-        <li>
-          Understand and apply techniques for asynchronous, non-blocking I/O
-        </li>
-        <li>
-          Develop a useful and interesting way of manipulating the data from third-party APIs
-        </li>
-      </ul>
-      <h4>Deliverables &amp; Milestones</h4>
-      <ol class="deliverables">
-        <li>
-          A small demonstration that you are able to pull data from an open API and display it on
-          an HTML page in a Web browser; this should be based on your work for Project 1. Due ASAP.
-        </li>
-        <li>
-          A proposal memo that outlines the application that you intend to build, and a week-by-week
-          plan for how you intend to complete it. Due 10/9.
-        </li>
-        <li>
-          A self-critique memo that evaluates your project and your progress in the class to this
-          point (2-3 paragraphs; submit via email or as a <code>README.md</code> in your GitHub
-          repository for the project). Due 11/13.
-        </li>
-        <li>
-          A GitHub repository of your files. Due 11/13.
-        </li>
-      </ol>
-      <h4>Requirements</h4>
-      <dl class="requirements">
-        <dt>If you choose to create a <b>CLI application</b>, it must:</dt>
-        <dd>
-          <ul>
-            <li>
-              Do some basic data checks and sanitization to protect against malicious/malformed code
-              originating from third-party sources
-            </li>
-            <li>
-              Be able to run unassisted for long periods of time (e.g., to capture data from an API
-              over a period of hours or days or more)
-            </li>
-            <li>
-              Provide output to the console and/or to log files that indicate its functionality and
-              any errors that it encounters
-            </li>
-            <li>
-              Writes data to a structured set of flat files or to a database or similar data store
-            </li>
-            <li>
-              Include a small test suite to ensure its functionality as you make changes to it
-            </li>
-          </ul>
-        </dd>
-        <dt>If you choose to create a <b>Web application</b>, it must:</dt>
-        <dd>
-          <ul>
-            <li>
-              Do some basic data checks and sanitization to protect against malicious/malformed code
-              originating from third-party sources
-            </li>
-            <li>
-              Feature some kind of interface to enable a user to interact with or change the data
-            </li>
-            <li>
-              Communicate with the browser using either AJAX or Websockets
-            </li>
-            <li>
-              Deliver to the browser standard forms of HTML5 and CSS; the use of a library such as
-              jQuery is encouraged for DOM scripting tasks
-            </li>
-            <li>
-              Include a small test suite to ensure its functionality as you make changes to it
-            </li>
-          </ul>
-        </dd>
-      </dl>
-      <h3>Project 3: Creating a Custom API <small>Due December 5</small></h3>
+      <h3>Project 3: Interactive Design of Information <small>Due December 5</small></h3>
       <p>
-        This project gives you the opportunity to write the specification for an API of an app of
-        your own creation. You will take the knowledge and experience of working with other APIs
-        over the course of this class and bring it to bear in making an original, more usable
-        API of your own imagination.
+        This project gives you the opportunity to prototype an interactive, dashboard-like
+        information display for small-screen devices. The emphasis will be on interaction with a
+        large, real data set through a high-density/high-resolution display. Possibilities include
+        working with historical weather information, up-to-the-minute financial information, or even
+        a heads-up display (HUD) for a game. Due May 7. Full description to be posted by March 10.
       </p>
-      <h4>Project Goals</h4>
-      <ul class="goals">
-        <li>
-          Leverage your knowledge of API shortcomings to make a more usable API than those you have
-          encountered
-        </li>
-        <li>
-          Understand the benefit of writing a specification document (or 'spec') in preparation for
-          building a system that relays data to users/developers
-        </li>
-        <li>
-          Use GitHub Gists to quickly and more easily communicate an idea for public development and
-          perhaps feedback.
-        </li>
-      </ul>
-      <h4>Deliverables &amp; Milestones</h4>
-      <ol class="deliverables">
-        <li>
-          A GitHub Gist of your API specification that includes both URL patterns for your API and
-          sample JSON data that the different patterns return
-        </li>
-        <li>
-          A self-critique memo that evaluates your project and your progress in the class to this
-          point (2-3 paragraphs; submit via email or as a separate <code>README.md</code> in your
-          GitHub Gist)
-        </li>
-        <li>
-          A 10-minute presentation of your work on the evening of December 4
-        </li>
-      </ol>
-      <h4>Requirements</h4>
-      <dl class="requirements">
-        <dt>Your API URL schemes must:</dt>
-        <dd>
-          <ul>
-            <li>Have a component that enables Semantic Versioning of the API</li>
-            <li>Be as short, direct, and yet descriptive as possible</li>
-          </ul>
-        </dd>
-        <dt>Your API data returned must:</dt>
-        <dd>
-          <ul>
-            <li>Be expressed in JSON</li>
-            <li>
-              Include all relevant data fields, expressed in their proper type (e.g., using ISO date
-              formats)
-            </li>
-            <li>
-              Make a sensible trade-off between server- and client-side manipulation (who does the
-              heavy lifting in terms of sorting data? you, or your developers?)
-            </li>
-          </ul>
-        </dd>
-      </dl>
-
-      <h3>Project 4 (COM580 Only): Better Know a Format <small>Due At Some Point</small></h3>
+      <h3>Project 4 (COM541 Only): Information Architecture &amp; Professionalization <small>Due April 14</small></h3>
       <p>
-        For this project, you will prepare for other members of our class a report  on some
-        format/vocabulary used in data exchange. Formats will be posted in the Campfire room on
-        October 2.
+        For this project, you will look at the professional work of information architects and the
+        kinds of professionalization activities expected of them. You will then convey this
+        information in a compelling, Web-friendly visual design with brief, accompanying text that
+        aims to recruit students to become information architects. Full description to be posted by
+        February 10.
       </p>
-      <h4>Project Goals</h4>
-      <ul class="goals">
-        <li>
-          Learn to research formats for data exchange, including their history and real-world usage
-        </li>
-        <li>
-          Learn to determine how well a particular language (in this case, JavaScript) works with a
-          given data-exchange format
-        </li>
-        <li>
-          Develop classroom expertise on common data-exchange formats
-        </li>
-      </ul>
-      <h4>Deliverables &amp; Milestones</h4>
-      <ol class="deliverables">
-        <li>
-          A one-page handout in digital form (e.g., Markdown, PDF) that covers the requirements below. Due October 30; link posted to Campfire room.
-        </li>
-      </ol>
-      <h4>Requirements</h4>
-      <dl class="requirements">
-        <dt>Your handout must cover the following for your format:</dt>
-        <dd>
-          <ul>
-            <li>The origins/history of the format, including any ancestor formats</li>
-            <li>
-              An example of what the format looks like, and who uses it (bloggers, meteorologists,
-              librarians, etc.) and for what purposes
-            </li>
-            <li>A short full or partial example of the format in action on the internet</li>
-            <li>
-              Example code (does not have to be functional) of how the format would be parsed in
-              JavaScript/Node.js, including any Node modules or JavaScript libraries that aid in
-              parsing the format
-            </li>
-          </ul>
-        </dd>
-      </dl>
     <!--/.extended-->
     </div>
     <!--/.content-->
