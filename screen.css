@@ -103,6 +103,10 @@ ul > li {
 #header {
   padding-bottom: 0; }
 
+#announcement {
+  background: #D00;
+  padding: 0.6665em 0.683em; }
+
 /* Module: Whole Page */
 .tagline,
 .fineprint {
