@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<family>
+  <member>
+    <relationship>Mom</relationship>
+    <name>Carol S.</name>
+    <uri>carol-s.xml</uri>
+    <spouse>lynn-s.xml</spouse>
+  </member>
+  <member>
+    <relationship>Dad</relationship>
+    <name>Lynn S.</name>
+    <uri>lynn-s.xml</uri>
+    <spouse>carol-s.xml</spouse>
+  </member>
+</family>

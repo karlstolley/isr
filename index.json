@@ -1,0 +1,11 @@
+[
+   {"relationship": "Mom",
+    "name": "Carol S.",
+    "uri": "carol-s.json",
+    "spouse": "lynn-s.json"},
+   {"relationship": "Dad",
+    "name": "Lynn S.",
+    "uri": "lynn-s.json",
+    "spouse": "carol-s.json"}
+]
+
