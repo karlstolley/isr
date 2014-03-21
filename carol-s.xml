@@ -1,0 +1,11 @@
+<member>
+  <relationship>Mom</relationship>
+  <name>Carol S.</name>
+  <uri>carol-s.xml</uri>
+  <spouse>lynn-s.xml</spouse>
+  <hobbies>
+    <hobby>crocheting</hobby>
+    <hobby>cooking</hobby>
+    <hobby>iPad games</hobby>
+  </hobbies>
+</member>
